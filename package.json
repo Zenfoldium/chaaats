@@ -1,0 +1,16 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is our node server for our chat application",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "morancium",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
+  }
+}
