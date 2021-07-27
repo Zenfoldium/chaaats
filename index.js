@@ -1,11 +1,14 @@
 // const { socket } = require('socket.io');
 
 // Node server whuill will handle our Scocket.io
-const io = require('socket.io')(8000, {
-    cors: {
-      origin: '*',
+const PORT = process.env.PORT || 5500
+console.log(PORT)
+
+const io = require("socket.io")(PORT, {
+    cors : {
+        origin : "*"
     }
-  });
+})
 
 const user = {};
 
